@@ -1,0 +1,68 @@
+.makeprofilepicandtextcent{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+.setmargin-left{
+  margin-left: 30px;
+}
+.profilename{
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 42px;
+  letter-spacing: 0em;
+  color: white;
+}
+.changeimagevuttonpro{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  color: #CED0DE;
+}
+.profilesubhead{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height:22px;
+  color:#FFFFFF;
+}
+.tabprofilelable{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height:20px;
+  color:#ffffff;
+}
+input.tabprofileplaceholder.form-control {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+input.tabprofileplaceholder.form-control::placeholder
+{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height:20px;
+  color:#858585;
+}
+.savechangesprofiletab, .savechangesprofiletab:hover{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height:20px;
+  color:white;
+  background-color: #2A7741;
+  border: none;
+  padding: 10px 30px;
+  margin-top: 30px;
+}
+.editiconprofile{
+  font-size: 22px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
